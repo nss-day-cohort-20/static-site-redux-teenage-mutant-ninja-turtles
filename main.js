@@ -1,4 +1,5 @@
 
+
 var products = [
 	{
 		name: "Big foot"
@@ -56,11 +57,13 @@ var products = [
 	}
 ];
 
+
+
 var wrapper = document.getElementById('wrapper');
 
 for ( var loopTracker = 0; loopTracker < products.length; loopTracker += 1) {
-	productsHtml += '<div class= "">'
-		+ '<img src= "">' + products[i].imgUrl + 
+	wrapper.innerHTML += '<div class= "">'
+		+ '<img src= "' + products[i].imgUrl + '">'
 		+ products[i].name
 		+ products[i].description
 		+ products[i].price 
@@ -71,7 +74,7 @@ for ( var loopTracker = 0; loopTracker < products.length; loopTracker += 1) {
 		
 
 
-for (...){
+/*for (...){
   // create the outer div (with classes 'entry panel row'):
   var entry_panel_row = document.createElement('div');
 
@@ -85,4 +88,15 @@ for (...){
   wrapper.appendChild(entry_panel_row);
 }
 
+
+for (var i = 0; i < img.length; i++) {
+    for (var k = 0; k < name.length; k++) {  
+    	for (var t = 0; t < description.length; t++) {
+    		for (var n = 0; n < price.length; n++) {}
+    	}
+
+var img = [];
+var name = ["Big Foot","Dragon","Unicorn","Troll","Goblin","Centaur","Griffin","Cthulu","Phoenix"];
+var description = [];
+var price = ["$500","$600","$450","$150","$200","$900","$500","$1000","$1500"];
 
