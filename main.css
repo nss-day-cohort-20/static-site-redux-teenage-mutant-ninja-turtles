@@ -49,9 +49,16 @@ h1 {
 #backgroundimg footer {
 	background-color: #f265e1;
 	height: 120px;
-	background-color: gray;
 	border-top: 1px solid black;
+	text-align: center;
 }
 #backgroundimg img {
 	margin-bottom: -4px;
+}
+.resize img {
+	height: 50px;
+	width: 50px;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
 }
